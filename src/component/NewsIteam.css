@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Pacifico&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
+
+nav{
+    padding: .8rem 0;
+    background-color: rgb(52, 48, 48);
+}
+
+nav .text a{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav .text span{
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.heading{
+    padding: 2rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading h2{
+    font-weight: 600;
+}
+
+.card{
+    margin: auto;
+    width: 90%;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.card img{
+     border-radius: .2rem;
+     margin-bottom: 1rem;
+}
+
+.More{
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.More a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+   padding: .4rem .6rem;
+   border-radius: .6rem;
+}
+
+
+.next{
+    padding:2rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+.card{
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 90%;
+      }
+    .next{
+        padding:2rem 2rem;
+    }
+    .heading{
+        padding-top: 2rem;
+    }
+    .heading h2{
+        font-size: 1.8rem;
+    }
+}
+
